@@ -2,10 +2,11 @@
 # Translators:
 # CLI team <prj_cli_team@arduino.cc>, 2022
 # cike567, 2022
+# Kuo Szu-Wei, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: cike567, 2022\n"
+"Last-Translator: Kuo Szu-Wei, 2022\n"
 "Language-Team: Chinese (https://www.transifex.com/arduino-1/teams/108174/zh/)\n"
 "Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -83,7 +84,7 @@ msgstr "%s必须安装"
 msgid "%s pattern is missing"
 msgstr "%s模式丢失"
 
-#: commands/instances.go:743
+#: commands/instances.go:747
 msgid "%s uninstalled"
 msgstr "%s已卸载"
 
@@ -144,7 +145,7 @@ msgstr "别名："
 msgid "All the cores are already at the latest version"
 msgstr "所有内核都是最新版本"
 
-#: commands/instances.go:614 commands/lib/install.go:96
+#: commands/instances.go:618 commands/lib/install.go:105
 msgid "Already installed %s"
 msgstr "已经安装%s"
 
@@ -162,7 +163,7 @@ msgstr "检测库时出错"
 
 #: cli/daemon/daemon.go:70
 msgid "Append debug logging to the specified file"
-msgstr ""
+msgstr "附加除错日志到特定文件"
 
 #: cli/lib/search.go:172
 msgid "Architecture: %s"
@@ -273,8 +274,8 @@ msgstr "无法新建项目"
 msgid "Can't download library"
 msgstr "无法下载库"
 
-#: commands/core/install.go:127 commands/core/uninstall.go:53
-#: commands/instances.go:653 commands/instances.go:665
+#: commands/core/install.go:129 commands/core/uninstall.go:53
+#: commands/instances.go:657 commands/instances.go:669
 msgid "Can't find dependencies for platform %s"
 msgstr "找不到平台%s的依赖"
 
@@ -334,7 +335,7 @@ msgstr "找不到绝对路径：%v"
 msgid "Cannot get executable path: %v"
 msgstr "无法获得可执行路径：%v"
 
-#: commands/core/install.go:134
+#: commands/core/install.go:136
 msgid "Cannot install platform"
 msgstr "无法安装平台"
 
@@ -346,7 +347,7 @@ msgstr "无法安装工具 %s"
 msgid "Cannot perform port reset: %s"
 msgstr "无法执行端口重置：%s"
 
-#: commands/core/install.go:152
+#: commands/core/install.go:154
 msgid "Cannot upgrade platform"
 msgstr "无法升级平台"
 
@@ -358,7 +359,7 @@ msgstr "类别：%s"
 msgid "Check dependencies status for the specified library."
 msgstr "检查指定库的依赖状态。"
 
-#: commands/lib/install.go:101
+#: commands/lib/install.go:110
 msgid "Checking lib install prerequisites"
 msgstr "检查依赖安装前提条件"
 
@@ -425,11 +426,11 @@ msgstr "端口配置。"
 msgid "Configuration options for %s"
 msgstr "%s的配置选项"
 
-#: commands/instances.go:750
+#: commands/instances.go:754
 msgid "Configuring platform"
 msgstr "配置平台"
 
-#: commands/core/install.go:167
+#: commands/core/install.go:169
 msgid "Configuring platform."
 msgstr "配置平台。"
 
@@ -453,7 +454,7 @@ msgstr "内核名"
 msgid "Could not connect via HTTP"
 msgstr "无法通过 HTTP 连接"
 
-#: commands/instances.go:372
+#: commands/instances.go:376
 msgid "Could not create index directory"
 msgstr "无法新建索引目录"
 
@@ -585,24 +586,24 @@ msgstr "不执行上传操作，只注销操作"
 msgid "Do not terminate daemon process if the parent process dies"
 msgstr "如果父进程终止，则不终止守护进程"
 
-#: commands/instances.go:605 commands/instances.go:662
+#: commands/instances.go:609 commands/instances.go:666
 #: commands/lib/download.go:59
 msgid "Downloading %s"
 msgstr "正在下载%s"
 
 #: arduino/resources/index.go:78
 msgid "Downloading index signature: %s"
-msgstr ""
+msgstr "正在下载 1%s 索引签名"
 
-#: arduino/resources/index.go:55 commands/instances.go:423
+#: arduino/resources/index.go:55 commands/instances.go:427
 msgid "Downloading index: %s"
-msgstr ""
+msgstr "正在下载 1%s 索引"
 
 #: commands/instances.go:96
 msgid "Downloading missing tool %s"
 msgstr "正在下载丢失的工具 %s"
 
-#: commands/core/install.go:87
+#: commands/core/install.go:89
 msgid "Downloading packages"
 msgstr "下载软件包"
 
@@ -683,16 +684,16 @@ msgstr "下载索引 %s时出错"
 msgid "Error downloading index signature '%s'"
 msgstr "下载索引签名%s'时出错"
 
-#: commands/instances.go:607
+#: commands/instances.go:611
 msgid "Error downloading library"
 msgstr "下载库时出错"
 
-#: commands/core/download.go:72 commands/instances.go:688
+#: commands/core/download.go:72 commands/instances.go:692
 msgid "Error downloading platform %s"
 msgstr "下载平台%s时出错"
 
 #: commands/core/download.go:81 commands/core/download.go:86
-#: commands/instances.go:681 commands/instances.go:682
+#: commands/instances.go:685 commands/instances.go:686
 msgid "Error downloading tool %s"
 msgstr "下载工具%s时出错"
 
@@ -800,11 +801,11 @@ msgstr "安装Git库时出错：%v"
 msgid "Error installing Zip Library: %v"
 msgstr "安装Zip库时出错：%v"
 
-#: commands/instances.go:707
+#: commands/instances.go:711
 msgid "Error installing platform %s"
 msgstr "安装平台%s时出错"
 
-#: commands/instances.go:697
+#: commands/instances.go:701
 msgid "Error installing tool %s"
 msgstr "安装工具%s时出错"
 
@@ -868,11 +869,11 @@ msgstr "检索内核列表时出错：%v"
 msgid "Error retrieving outdated cores and libraries: %v"
 msgstr "检索过时的内核和库时出错：%v"
 
-#: commands/instances.go:723
+#: commands/instances.go:727
 msgid "Error rolling-back changes"
 msgstr "回滚更改时出错"
 
-#: commands/core/install.go:149
+#: commands/core/install.go:151
 msgid "Error rolling-back changes: %s"
 msgstr "回滚更改时出错：%s"
 
@@ -913,7 +914,7 @@ msgstr "卸载%[1]s时出错：%[2]v"
 msgid "Error uninstalling platform %s"
 msgstr "卸载平台%s时出错"
 
-#: commands/core/uninstall.go:97 commands/instances.go:739
+#: commands/core/uninstall.go:97 commands/instances.go:743
 msgid "Error uninstalling tool %s"
 msgstr "卸载工具%s时出错"
 
@@ -937,7 +938,7 @@ msgstr "更新库索引时出错：%v"
 msgid "Error upgrading libraries: %v"
 msgstr "更新库时出错：%v"
 
-#: commands/core/install.go:144 commands/instances.go:718
+#: commands/core/install.go:146 commands/instances.go:722
 msgid "Error upgrading platform: %s"
 msgstr "更新平台时出错：%s"
 
@@ -1159,7 +1160,7 @@ msgstr "在存档中包含%s目录。"
 msgid "Installed"
 msgstr "已安装"
 
-#: commands/instances.go:628 commands/lib/install.go:112
+#: commands/instances.go:632 commands/lib/install.go:121
 msgid "Installed %s"
 msgstr "已安装%s"
 
@@ -1168,12 +1169,12 @@ msgstr "已安装%s"
 msgid "Installed version"
 msgstr "已安装的版本"
 
-#: commands/bundled_tools.go:46 commands/instances.go:611
-#: commands/lib/install.go:92
+#: commands/bundled_tools.go:46 commands/instances.go:615
+#: commands/lib/install.go:101
 msgid "Installing %s"
 msgstr "正在安装%s"
 
-#: commands/core/install.go:110
+#: commands/core/install.go:112
 msgid "Installing platform %s"
 msgstr "正在安装平台%s"
 
@@ -1210,7 +1211,7 @@ msgstr "无效的FQBN"
 msgid "Invalid URL"
 msgstr "无效的地址"
 
-#: commands/instances.go:197
+#: commands/instances.go:201
 msgid "Invalid additional URL: %v"
 msgstr "无效的附加地址：%v"
 
@@ -1255,7 +1256,7 @@ msgstr "--log-level选项无效：%s"
 msgid "Invalid output format: %s"
 msgstr "无效的输出格式：%s"
 
-#: commands/instances.go:418
+#: commands/instances.go:422
 msgid "Invalid package index in %s"
 msgstr "%s中的软件包索引无效"
 
@@ -1327,7 +1328,7 @@ msgstr "库不能同时使用“%[1]s”和“%[2]s”文件夹。在'%[3]s'再�
 msgid "Library install failed"
 msgstr "库安装失败"
 
-#: commands/lib/install.go:122 commands/lib/install.go:132
+#: commands/lib/install.go:131 commands/lib/install.go:141
 msgid "Library installed"
 msgstr "已安装的库"
 
@@ -1398,12 +1399,12 @@ msgstr "列出所有已连接的开发板。"
 msgid "Lists cores and libraries that can be upgraded"
 msgstr "列出可以升级的内核和库"
 
-#: commands/instances.go:211 commands/instances.go:222
-#: commands/instances.go:327
+#: commands/instances.go:215 commands/instances.go:226
+#: commands/instances.go:331
 msgid "Loading index file: %v"
 msgstr "正在加载索引文件：%v"
 
-#: commands/instances.go:336
+#: commands/instances.go:340
 msgid "Loading libraries: %v"
 msgstr "正在加载库：%v"
 
@@ -1639,11 +1640,11 @@ msgstr "保存已编译文件的路径。如果省略，将在操作系统的默
 msgid "Performing 1200-bps touch reset on serial port %s"
 msgstr "在串行端口%s上执行 1200-bps TOUCH重置"
 
-#: commands/core/install.go:73
+#: commands/core/install.go:75
 msgid "Platform %s already installed"
 msgstr "平台%s已经安装"
 
-#: commands/core/install.go:177
+#: commands/core/install.go:179
 msgid "Platform %s installed"
 msgstr "已安装平台%s"
 
@@ -1784,7 +1785,7 @@ msgstr "提供包括：%s"
 msgid "Removes one or more values from a setting."
 msgstr "从设置中删除一个或多个值。"
 
-#: commands/instances.go:621 commands/lib/install.go:105
+#: commands/instances.go:625 commands/lib/install.go:114
 msgid "Replacing %[1]s with %[2]s"
 msgstr "将%[1]s替换为%[2]s"
 
@@ -1988,11 +1989,11 @@ msgstr "跳过编译：%[1]s"
 msgid "Skipping dependencies detection for precompiled library %[1]s"
 msgstr "跳过预编译库%[1]s的依赖检测"
 
-#: commands/instances.go:756
+#: commands/instances.go:760
 msgid "Skipping platform configuration"
 msgstr "跳过平台配置"
 
-#: commands/core/install.go:173
+#: commands/core/install.go:175
 msgid "Skipping platform configuration."
 msgstr "跳过平台配置。"
 
@@ -2076,8 +2077,8 @@ msgid ""
 "that can be upgraded. If nothing needs to be updated the output is empty."
 msgstr "此命令显示可升级的已安装内核和库或其一的列表。如果不需要更新任何内容，则输出为空。"
 
-#: commands/bundled_tools.go:41 commands/core/install.go:80
-#: commands/instances.go:672
+#: commands/bundled_tools.go:41 commands/core/install.go:82
+#: commands/instances.go:676
 msgid "Tool %s already installed"
 msgstr "工具%s已经安装"
 
@@ -2154,7 +2155,7 @@ msgstr "正在卸载 %s"
 msgid "Uninstalling %s, tool is no more required"
 msgstr "卸载%s，不再需要工具"
 
-#: commands/instances.go:735
+#: commands/instances.go:739
 msgid "Uninstalling %s: tool is no more required"
 msgstr "卸载%s，：不再需要工具"
 
@@ -2200,7 +2201,7 @@ msgstr "更新库索引到最新版本。"
 msgid "Updates the libraries index."
 msgstr "更新库索引。"
 
-#: commands/instances.go:692
+#: commands/instances.go:696
 msgid "Updating platform %s"
 msgstr "正在更新平台 %s"
 
@@ -2224,7 +2225,7 @@ msgstr "升级已安装的库。"
 msgid "Upgrades one or all installed platforms to the latest version."
 msgstr "将一个或所有已安装的平台升级到最新版本。"
 
-#: commands/core/install.go:114
+#: commands/core/install.go:116
 msgid "Upgrading platform %[1]s with %[2]s"
 msgstr "用%[2]s升级平台%[1]s"
 
@@ -2344,11 +2345,11 @@ msgstr "版本"
 msgid "Versions: %s"
 msgstr "版本：%s"
 
-#: commands/core/install.go:169
+#: commands/core/install.go:171
 msgid "WARNING cannot configure platform: %s"
 msgstr "警告：无法配置平台：%s"
 
-#: commands/instances.go:752
+#: commands/instances.go:756
 msgid "WARNING: cannot run post install: %s"
 msgstr "警告：安装后无法运行：%s"
 
@@ -2452,7 +2453,7 @@ msgstr "调用%[1]s: %[2]w"
 msgid "can't find latest release of %s"
 msgstr "找不到%s的最新版本"
 
-#: commands/instances.go:268
+#: commands/instances.go:272
 msgid "can't find latest release of tool %s"
 msgstr "找不到工具%s的最新版本"
 
@@ -2590,7 +2591,7 @@ msgstr "编译项目元数据：%s"
 
 #: arduino/cores/packagemanager/loader.go:632
 msgid "error opening %s"
-msgstr ""
+msgstr "%s 开启错误"
 
 #: arduino/monitors/serial.go:44
 msgid "error opening serial monitor"
@@ -2806,7 +2807,7 @@ msgstr "新建配置目录的路径无效：%[1]s错误：%[2]w"
 msgid "invalid path writing inventory file: %[1]s error: %[2]w"
 msgstr "写入库存文件的路径无效：%[1]s错误：%[2]w"
 
-#: arduino/cores/packageindex/index.go:255
+#: arduino/cores/packageindex/index.go:267
 msgid "invalid platform archive size: %s"
 msgstr "无效的平台存档大小：%s"
 
@@ -3019,7 +3020,7 @@ msgstr "正在解析IDE附加索引"
 msgid "parsing fqbn: %s"
 msgstr "解析FQBN：%s"
 
-#: arduino/libraries/librariesindex/json.go:69
+#: arduino/libraries/librariesindex/json.go:72
 msgid "parsing library_index.json: %s"
 msgstr "解析library_index.json: %s"
 
@@ -3112,7 +3113,7 @@ msgstr "正在读取 lib src 目录：%s"
 msgid "reading library headers: %w"
 msgstr "正在读取库头文件：%w"
 
-#: arduino/libraries/librariesindex/json.go:63
+#: arduino/libraries/librariesindex/json.go:66
 msgid "reading library_index.json: %s"
 msgstr "正在读取library_index.json: %s"
 
